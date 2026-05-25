@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.menuWind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="menuWind" Height="470" Width="220">
+    <Grid>
+        <Button Name="regIncButt" Click="regIncButt_Click" Content="Зарегистрировать" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="120" Margin="40,83,0,0"/>
+        <Button Name="bilraryButt" Click="bilraryButt_Click"  Content="Библиотека" HorizontalAlignment="Left" Margin="40,138,0,0" VerticalAlignment="Top" Height="50" Width="120"/>
+        <Button Name="ispolnButt" Click="ispolnButt_Click" Content="Исполнители" HorizontalAlignment="Left" Margin="40,193,0,0" Width="120" Height="50" VerticalAlignment="Top"/>
+        <Button Name="optButt" Click="optButt_Click" Content="Настройки" HorizontalAlignment="Left" Margin="40,358,0,0" Width="120" Height="50" VerticalAlignment="Top"/>
+        <Button Name="exitButt" Click="exitButt_Click" Content="выйти" HorizontalAlignment="Left" Margin="152,10,0,0" VerticalAlignment="Top" Height="21"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" Text="пользователь:" VerticalAlignment="Top"/>
+        <TextBlock Name="UserBlock" HorizontalAlignment="Left" Margin="10,40,0,0" TextWrapping="Wrap" Text="Иванов Иван Иванович" VerticalAlignment="Top"/>
+        <Button x:Name="categButt" Click="categButt_Click" Content="Категории" HorizontalAlignment="Left" Margin="40,248,0,0" Width="120" Height="50" VerticalAlignment="Top"/>
+        <Button x:Name="podrazButt" Click="podrazButt_Click" Content="Подразделения" HorizontalAlignment="Left" Margin="40,303,0,0" Width="120" Height="50" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
