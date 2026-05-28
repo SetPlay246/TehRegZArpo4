@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="320" Width="220">
     <Grid>
-        <TextBlock Margin="23,39,0,0" TextWrapping="Wrap" Text="Login:" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="32"/>
-        <TextBlock Margin="23,95,0,0" TextWrapping="Wrap" Text="Password:" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="52"/>
-        <TextBox Name="logBox" Margin="23,60,0,0" TextWrapping="Wrap" Text="" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150"/>
+        <TextBlock Margin="23,39,0,0" TextWrapping="Wrap" Text="Login:" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41"/>
+        <TextBlock Margin="23,95,0,0" TextWrapping="Wrap" Text="Password:" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="58"/>
+        <TextBox Name="logBox" Margin="23,60,0,0" TextWrapping="Wrap" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150"/>
         <TextBox Name="pasBox" Margin="23,116,0,0" TextWrapping="Wrap" Text="" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150"/>
         <TextBlock Name="mesBlock" HorizontalAlignment="Left" Margin="26,173,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top"/>
-        <Button Name="enterButt" Content="Войти" Click="enterButt_Click" Margin="126,245,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="64"/>
+        <Button Name="enterButt" Content="Войти" Click="enterButt_Click" Margin="23,245,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="83"/>
         <Button Name="optButt" Content="Настройки" Click="optButt_Click" Margin="23,211,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="167"/>
-        <Button x:Name="exitButt" Content="Выйти" Click="exitButt_Click" Margin="23,245,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="98"/>
+        <Button x:Name="exitButt" Content="Выйти" Click="exitButt_Click" Margin="111,245,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="79"/>
 
 
     </Grid>

@@ -23,14 +23,14 @@ namespace WpfApp1
         bibltWind BW;
         InzedentWind IW;
         toSQL SQL = new toSQL();
-        public int userId = 0;
-        public menuWind()
+        Employe User = new Employe();
+        public menuWind(int ui)
         {
-            
             InitializeComponent();
-            UserBlock.Text = SQL.GetUserFullName(userId);
+            User = SQL.GetEmployeById(ui);
+            UserBlock.Text = User.Name;
+            //optButt.IsEnabled = false;
         }
-
         private void exitButt_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
@@ -40,7 +40,8 @@ namespace WpfApp1
 
         private void optButt_Click(object sender, RoutedEventArgs e)
         {
-            if(OW == null || !OW.IsVisible)
+
+            if (OW == null || !OW.IsVisible)
             {
                 OW = new optionWind();
                 OW.Show();
@@ -49,77 +50,90 @@ namespace WpfApp1
             {
                 OW.Activate();
             }
+            
         }
 
         private void regIncButt_Click(object sender, RoutedEventArgs e)
         {
-            if (IW == null || !IW.IsVisible)
+            if (SQL.TestConnection(SQL.GetConnString()))
             {
-                IW = new InzedentWind();
-                IW.reduct = false;
-                IW.Show();
-            }
-            else
-            {
-                IW.Activate();
+                if (IW == null || !IW.IsVisible)
+                {
+                    IW = new InzedentWind(User, false, null);  
+                    IW.reduct = false;
+                    IW.Show();
+                }
+                else
+                {
+                    IW.Activate();
+                }
             }
         }
 
         private void bilraryButt_Click(object sender, RoutedEventArgs e)
         {
-            if (BW == null || !BW.IsVisible)
+            if (SQL.TestConnection(SQL.GetConnString()))
             {
-                BW = new bibltWind();
-                BW.Show();
-            }
-            else
-            {
-                BW.Activate();
+                if (BW == null || !BW.IsVisible)
+                {
+                    BW = new bibltWind(User);
+                    BW.Show();
+                }
+                else
+                {
+                    BW.Activate();
+                }
             }
         }
 
         private void ispolnButt_Click(object sender, RoutedEventArgs e)
         {
-            if (MWE == null || !MWE.IsVisible)
+            if (SQL.TestConnection(SQL.GetConnString()))
             {
-                MWE = new multiWind();
-                MWE.type = "Employe";
-                MWE.chekIsEmploye();
-                MWE.Show();
-            }
-            else
-            {
-                MWE.Activate();
+                if (MWE == null || !MWE.IsVisible)
+                {
+                    MWE = new multiWind("Employees");
+                    MWE.chekIsEmploye();
+                    MWE.Show();
+                }
+                else
+                {
+                    MWE.Activate();
+                }
             }
         }
 
         private void categButt_Click(object sender, RoutedEventArgs e)
         {
-            if (MWC == null || !MWC.IsVisible)
+            if (SQL.TestConnection(SQL.GetConnString()))
             {
-                MWC = new multiWind();
-                MWC.type = "Category";
-                MWC.chekIsEmploye();
-                MWC.Show();
-            }
-            else
-            {
-                MWC.Activate();
+                if (MWC == null || !MWC.IsVisible)
+                {
+                    MWC = new multiWind("Categories");
+                    MWC.chekIsEmploye();
+                    MWC.Show();
+                }
+                else
+                {
+                    MWC.Activate();
+                }
             }
         }
 
         private void podrazButt_Click(object sender, RoutedEventArgs e)
         {
-            if (MWS == null || !MWS.IsVisible)
+            if (SQL.TestConnection(SQL.GetConnString()))
             {
-                MWS = new multiWind();
-                MWS.type = "Subdivision";
-                MWS.chekIsEmploye();
-                MWS.Show();
-            }
-            else
-            {
-                MWS.Activate();
+                if (MWS == null || !MWS.IsVisible)
+                {
+                    MWS = new multiWind("Subdivisions");
+                    MWS.chekIsEmploye();
+                    MWS.Show();
+                }
+                else
+                {
+                    MWS.Activate();
+                }
             }
         }
     }

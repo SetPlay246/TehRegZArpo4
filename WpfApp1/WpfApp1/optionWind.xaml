@@ -9,8 +9,10 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Строка подключения SQL:" VerticalAlignment="Top"/>
         <Button Name="saveButt" Click="saveButt_Click"  Content="Сохранить" HorizontalAlignment="Left" Margin="177,154,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="connBox" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="48"/>
+        <TextBox Name="connBox" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="109"/>
         <Button x:Name="cancelButt" Click="cancelButt_Click" Content="Отмена" HorizontalAlignment="Left" Margin="244,154,0,0" VerticalAlignment="Top"/>
+        <Button Content="проверить" Name="chekButt" Click="chekButt_Click" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top"/>
+        <Button Content="создать бд" IsEnabled="False" HorizontalAlignment="Left" Margin="78,154,0,0" VerticalAlignment="Top" Width="94"/>
 
     </Grid>
 </Window>

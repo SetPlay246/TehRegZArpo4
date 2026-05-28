@@ -7,21 +7,23 @@
         mc:Ignorable="d"
         Title="multiWind" Height="350" Width="600">
     <Grid>
-        <DataGrid Name="tableGrid" d:ItemsSource="{d:SampleData ItemCount=10}" Margin="10,39,0,0" HorizontalAlignment="Left" Width="314" Height="259" VerticalAlignment="Top"/>
-        <Button Name="reductButt" Content="режим добавления нового" HorizontalAlignment="Left" Margin="329,10,0,0" VerticalAlignment="Top" Height="30" Width="244"/>
-        <TextBlock HorizontalAlignment="Left" Margin="329,45,0,0" TextWrapping="Wrap" Text="id:" VerticalAlignment="Top"/>
-        <TextBlock Name="idBlock" HorizontalAlignment="Left" Margin="347,45,0,0" TextWrapping="Wrap" Text="new" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="329,66,0,0" TextWrapping="Wrap" Text="name" VerticalAlignment="Top"/>
-        <TextBox Name="nameBox" HorizontalAlignment="Left" Margin="329,87,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="244" Height="34"/>
-        <TextBlock Name="eBlock" HorizontalAlignment="Left" Margin="329,126,0,0" TextWrapping="Wrap" Text="email" VerticalAlignment="Top"/>
-        <TextBox x:Name="eBox" HorizontalAlignment="Left" Margin="329,147,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="244" Height="23"/>
-        <TextBlock x:Name="lBlock" HorizontalAlignment="Left" Margin="329,175,0,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top"/>
-        <TextBox x:Name="lBox" HorizontalAlignment="Left" Margin="329,196,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="244" Height="23"/>
-        <TextBlock x:Name="pBlock" HorizontalAlignment="Left" Margin="329,224,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top"/>
-        <TextBox x:Name="pBox" HorizontalAlignment="Left" Margin="329,245,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="244" Height="23"/>
-        <Button Name="exitButt" Click="exitButt_Click" Content="назад" HorizontalAlignment="Left" Margin="514,278,0,0" VerticalAlignment="Top" Width="59"/>
-        <Button x:Name="saveButt" Content="добавить" HorizontalAlignment="Left" Margin="450,278,0,0" VerticalAlignment="Top" Width="59"/>
+        <DataGrid Name="tableGrid" SelectionMode="Single" SelectionChanged="tableGrid_SelectionChanged" d:ItemsSource="{d:SampleData ItemCount=10}" Margin="10,39,276,36" IsReadOnly="True"/>
+        <Button Name="reductButt" Content="режим добавления нового" Click="reductButt_Click" HorizontalAlignment="Right" Margin="0,10,27,0" VerticalAlignment="Top" Height="30" Width="244"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,45,258,0" TextWrapping="Wrap" Text="id:" VerticalAlignment="Top"/>
+        <TextBlock Name="idBlock" HorizontalAlignment="Right" Margin="0,45,231,0" TextWrapping="Wrap" Text="new" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,66,241,0" TextWrapping="Wrap" Text="name" VerticalAlignment="Top"/>
+        <TextBox Name="nBox" HorizontalAlignment="Right" Margin="0,87,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" Height="34"/>
+        <TextBlock Name="eBlock" HorizontalAlignment="Right" Margin="0,126,242,0" TextWrapping="Wrap" Text="email" VerticalAlignment="Top"/>
+        <TextBox x:Name="eBox" HorizontalAlignment="Right" Margin="0,147,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" Height="23"/>
+        <TextBlock x:Name="lBlock" HorizontalAlignment="Right" Margin="0,175,244,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top"/>
+        <TextBox x:Name="lBox" HorizontalAlignment="Right" Margin="0,196,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" Height="23"/>
+        <TextBlock x:Name="pBlock" HorizontalAlignment="Right" Margin="0,224,221,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top"/>
+        <TextBox x:Name="pBox" HorizontalAlignment="Right" Margin="0,245,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" Height="23"/>
+        <Button Name="exitButt" Click="exitButt_Click" Content="назад" HorizontalAlignment="Right" Margin="0,278,27,0" VerticalAlignment="Top" Width="50"/>
+        <Button x:Name="saveButt" Click="saveButt_Click" Content="добавить" HorizontalAlignment="Right" Margin="0,278,144,0" VerticalAlignment="Top" Width="65"/>
         <TextBlock Name="typeBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button Content="обновить" Name="refreshButt" Click="refreshButt_Click" HorizontalAlignment="Right" Margin="0,278,214,0" VerticalAlignment="Top"/>
+        <Button Content="удалить" Name="dellButt" Click="dellButt_Click" IsEnabled="False" HorizontalAlignment="Right" Margin="0,278,82,0" VerticalAlignment="Top" Width="57"/>
 
     </Grid>
 </Window>

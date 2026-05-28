@@ -35,7 +35,7 @@ namespace WpfApp1
             else
             {
                 userId = ui;
-                mesBlock.Text = " ";
+                mesBlock.Text = "успешный вход";
                 return true;
             }
             return false;
@@ -44,8 +44,7 @@ namespace WpfApp1
         private void enterButt_Click(object sender, RoutedEventArgs e)
         {
             if(ChekUser()){
-                menuWind newWind = new menuWind();
-                newWind.userId = userId;
+                menuWind newWind = new menuWind(userId);
                 newWind.Show();
                 if (OW != null)
                 {

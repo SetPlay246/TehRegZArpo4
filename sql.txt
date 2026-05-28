@@ -1,0 +1,186 @@
+-- Создание базы данных
+CREATE DATABASE IncidentManagmentSystem;
+GO
+
+USE IncidentManagmentSystem;
+GO
+
+-- 1. Таблица сотрудников (Employe)
+CREATE TABLE Employees (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(200) NOT NULL,
+    Email NVARCHAR(200) NOT NULL UNIQUE,
+    Login NVARCHAR(100) NOT NULL UNIQUE,
+    Password NVARCHAR(255) NOT NULL,
+    CreatedAt DATETIME DEFAULT GETDATE()
+);
+GO
+
+-- 2. Таблица категорий (Category)
+CREATE TABLE Categories (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL UNIQUE
+);
+GO
+
+-- 3. Таблица подразделений (Subdivision)
+CREATE TABLE Subdivisions (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(200) NOT NULL UNIQUE
+);
+GO
+
+-- 4. Таблица статусов (Status)
+CREATE TABLE Statuses (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(50) NOT NULL UNIQUE
+);
+GO
+
+-- 5. Основная таблица инцидентов (Incident)
+CREATE TABLE Incidents (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    AuthorName NVARCHAR(200) NOT NULL,
+    AuthorEmail NVARCHAR(200) NOT NULL,
+    Description NVARCHAR(MAX) NOT NULL,
+    Priority INT NOT NULL CHECK (Priority BETWEEN 1 AND 5),  -- 1 - наивысший, 5 - низший
+    CategoryId INT NOT NULL,
+    SubdivisionId INT NOT NULL,
+    EmployeId INT NOT NULL,
+    StatusId INT NOT NULL,
+    CreateDate DATETIME NOT NULL DEFAULT GETDATE(),
+    FinalDate DATETIME NOT NULL ,  -- может быть NULL, пока инцидент не закрыт
+    
+    -- Внешние ключи
+    CONSTRAINT FK_Incident_Category FOREIGN KEY (CategoryId) REFERENCES Categories(Id),
+    CONSTRAINT FK_Incident_Subdivision FOREIGN KEY (SubdivisionId) REFERENCES Subdivisions(Id),
+    CONSTRAINT FK_Incident_Employe FOREIGN KEY (EmployeId) REFERENCES Employees(Id),
+    CONSTRAINT FK_Incident_Status FOREIGN KEY (StatusId) REFERENCES Statuses(Id)
+);
+GO
+
+-- 6. Таблица файлов (File) - привязана к инцидентам
+CREATE TABLE Files (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    IncidentId INT NOT NULL,
+    FileName NVARCHAR(255) NOT NULL,
+    ContentType NVARCHAR(100) NOT NULL,
+    FileData VARBINARY(MAX) NOT NULL,
+    FileSize BIGINT NOT NULL,
+    UploadDate DATETIME DEFAULT GETDATE(),
+    
+    CONSTRAINT FK_File_Incident FOREIGN KEY (IncidentId) REFERENCES Incidents(Id) ON DELETE CASCADE
+);
+GO
+
+-- 7. Таблица истории изменений (History)
+CREATE TABLE Histories (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    IncidentId INT NOT NULL,
+    EmployeId INT NOT NULL,
+    Description NVARCHAR(MAX) NOT NULL,
+    Zametka NVARCHAR(MAX) NULL,
+    ChangeDate DATETIME DEFAULT GETDATE(),
+    
+    CONSTRAINT FK_History_Incident FOREIGN KEY (IncidentId) REFERENCES Incidents(Id) ON DELETE CASCADE,
+    CONSTRAINT FK_History_Employe FOREIGN KEY (EmployeId) REFERENCES Employees(Id)
+);
+GO
+
+INSERT INTO Statuses(Name) VALUES
+('новый'),
+('в работе'),
+('ожидает информации'),
+('решен'),
+('закрыт'),
+('отклонен')
+GO
+
+INSERT INTO Employees (Name, Email, Login, Password) VALUES
+('Test Employe 1', 'test mail 1', 'login', 'password')
+
+-- ниже необязательно
+-- заполненно нейронкой
+
+INSERT INTO Employees (Name, Email, Login, Password) VALUES
+('Иван Петров', 'ivan.petrov@company.com', 'ivan.petrov', 'pass123'),
+('Мария Сидорова', 'maria.sidorova@company.com', 'maria.sidorova', 'pass123'),
+('Алексей Смирнов', 'alexey.smirnov@company.com', 'alexey.smirnov', 'pass123'),
+('Елена Козлова', 'elena.kozlova@company.com', 'elena.kozlova', 'pass123'),
+('Дмитрий Иванов', 'dmitry.ivanov@company.com', 'dmitry.ivanov', 'pass123'),
+('Анна Васильева', 'anna.vasilyeva@company.com', 'anna.vasilyeva', 'pass123'),
+('Сергей Кузнецов', 'sergey.kuznetsov@company.com', 'sergey.kuznetsov', 'pass123'),
+('Ольга Морозова', 'olga.morozova@company.com', 'olga.morozova', 'pass123'),
+('Андрей Соколов', 'andrey.sokolov@company.com', 'andrey.sokolov', 'pass123'),
+('Татьяна Михайлова', 'tatiana.mikhailova@company.com', 'tatiana.mikhailova', 'pass123'),
+('Максим Федоров', 'maxim.fedorov@company.com', 'maxim.fedorov', 'pass123'),
+('Юлия Новикова', 'yulia.novikova@company.com', 'yulia.novikova', 'pass123'),
+('Владимир Егоров', 'vladimir.egorov@company.com', 'vladimir.egorov', 'pass123'),
+('Наталья Павлова', 'natalia.pavlova@company.com', 'natalia.pavlova', 'pass123');
+GO
+
+INSERT INTO Categories (Name) VALUES
+('Технические проблемы'),
+('Программное обеспечение'),
+('Аппаратное обеспечение'),
+('Доступ и права'),
+('Запрос информации'),
+('Бухгалтерия и финансы'),
+('Документооборот'),
+('Обучение и консультации'),
+('Связь и коммуникации'),
+('Прочие вопросы');
+GO
+
+INSERT INTO Subdivisions (Name) VALUES
+('IT отдел'),
+('Отдел разработки'),
+('Служба поддержки'),
+('Административный отдел'),
+('Бухгалтерия'),
+('Отдел кадров'),
+('Юридический отдел'),
+('Отдел продаж');
+GO
+
+SET DATEFORMAT ymd;
+GO
+INSERT INTO Incidents (AuthorName, AuthorEmail, Description, Priority, CategoryId, SubdivisionId, EmployeId, StatusId, CreateDate, FinalDate) VALUES
+('Иван Петров', 'ivan.petrov@company.com', 'Не открывается программа 1С', 2, 2, 5, 1, 1, '2025-05-20 10:30:00', '2025-05-21 15:20:00'),
+('Мария Сидорова', 'maria.sidorova@company.com', 'Зависает компьютер при запуске', 1, 3, 1, 2, 2, '2025-05-21 09:15:00', '2025-05-22 11:30:00'),
+('Алексей Смирнов', 'alexey.smirnov@company.com', 'Нет доступа к общей папке', 3, 4, 1, 3, 1, '2025-05-21 14:00:00', '2025-05-21 18:00:00'),
+('Елена Козлова', 'elena.kozlova@company.com', 'Не формируется отчет в Excel', 2, 2, 2, 4, 2, '2025-05-22 11:20:00', '2025-05-23 09:45:00'),
+('Дмитрий Иванов', 'dmitry.ivanov@company.com', 'Принтер не печатает', 3, 3, 3, 5, 3, '2025-05-22 15:30:00', '2025-05-23 14:00:00'),
+('Анна Васильева', 'anna.vasilyeva@company.com', 'Нужно настроить почту в Outlook', 4, 5, 3, 6, 1, '2025-05-23 10:00:00', '2025-05-24 16:30:00'),
+('Сергей Кузнецов', 'sergey.kuznetsov@company.com', 'Ошибка при входе в систему', 1, 4, 4, 7, 2, '2025-05-23 13:45:00', '2025-05-25 10:00:00'),
+('Ольга Морозова', 'olga.morozova@company.com', 'Запрос на установку ПО', 4, 2, 1, 8, 4, '2025-05-24 09:00:00', '2025-05-26 12:15:00'),
+('Андрей Соколов', 'andrey.sokolov@company.com', 'Проблемы с интернетом', 2, 1, 1, 9, 2, '2025-05-24 16:20:00', '2025-05-25 09:00:00'),
+('Татьяна Михайлова', 'tatiana.mikhailova@company.com', 'Не работает сканер', 3, 3, 3, 10, 3, '2025-05-25 11:10:00', '2025-05-26 15:30:00'),
+('Максим Федоров', 'maxim.fedorov@company.com', 'Нужен доступ к базе данных', 2, 4, 2, 11, 6, '2025-05-25 14:30:00', '2025-05-27 11:45:00'),
+('Юлия Новикова', 'yulia.novikova@company.com', 'Проблема с обновлением Windows', 3, 1, 1, 12, 2, '2025-05-26 10:15:00', '2025-05-27 09:00:00'),
+('Владимир Егоров', 'vladimir.egorov@company.com', 'Не приходит электронная подпись', 2, 9, 7, 13, 1, '2025-05-26 13:00:00', '2025-05-28 14:20:00'),
+('Наталья Павлова', 'natalia.pavlova@company.com', 'Нужно сбросить пароль', 4, 4, 4, 14, 5, '2025-05-27 09:30:00', '2025-05-27 17:00:00'),
+('Иван Петров', 'ivan.petrov@company.com', 'Пропал звук на компьютере', 3, 3, 3, 1, 3, '2025-05-15 10:00:00', '2025-05-16 11:30:00'),
+('Мария Сидорова', 'maria.sidorova@company.com', 'Ошибка в отчете по зарплате', 1, 6, 5, 2, 2, '2025-05-16 12:00:00', '2025-05-18 15:45:00'),
+('Алексей Смирнов', 'alexey.smirnov@company.com', 'Не открывается сайт компании', 2, 9, 1, 3, 1, '2025-05-17 09:15:00', '2025-05-19 10:00:00'),
+('Елена Козлова', 'elena.kozlova@company.com', 'Нужно настроить VPN', 3, 1, 1, 4, 4, '2025-05-18 14:00:00', '2025-05-20 09:30:00'),
+('Дмитрий Иванов', 'dmitry.ivanov@company.com', 'Запрос на покупку нового ПО', 4, 2, 2, 5, 6, '2025-05-19 11:30:00', '2025-05-22 16:00:00'),
+('Анна Васильева', 'anna.vasilyeva@company.com', 'Не работает клавиатура', 3, 3, 3, 6, 2, '2025-05-01 08:00:00', '2025-05-02 12:00:00'),
+('Сергей Кузнецов', 'sergey.kuznetsov@company.com', 'Проблема с видеокартой', 2, 3, 1, 7, 3, '2025-05-02 10:30:00', '2025-05-04 14:15:00'),
+('Ольга Морозова', 'olga.morozova@company.com', 'Нужно обновить антивирус', 5, 2, 1, 8, 4, '2025-05-03 09:45:00', '2025-05-05 11:00:00'),
+('Андрей Соколов', 'andrey.sokolov@company.com', 'Не подключается к Wi-Fi', 2, 1, 1, 9, 2, '2025-05-04 15:20:00', '2025-05-06 10:30:00'),
+('Татьяна Михайлова', 'tatiana.mikhailova@company.com', 'Ошибка в CRM системе', 1, 2, 2, 10, 1, '2025-05-05 13:10:00', '2025-05-08 09:00:00'),
+('Максим Федоров', 'maxim.fedorov@company.com', 'Нужна консультация по Excel', 4, 8, 4, 11, 5, '2025-05-06 11:00:00', '2025-05-06 16:30:00'),
+('Юлия Новикова', 'yulia.novikova@company.com', 'Проблема с проектором', 3, 3, 3, 12, 3, '2025-05-07 14:30:00', '2025-05-09 11:15:00'),
+('Владимир Егоров', 'vladimir.egorov@company.com', 'Не синхронизируется календарь', 3, 5, 3, 13, 2, '2025-05-08 10:00:00', '2025-05-10 09:45:00'),
+('Наталья Павлова', 'natalia.pavlova@company.com', 'Запрос на смену рабочего места', 4, 10, 4, 14, 4, '2025-05-09 09:30:00', '2025-05-12 14:00:00'),
+('Иван Петров', 'ivan.petrov@company.com', 'Нет доступа к 1С', 2, 4, 5, 1, 2, '2025-05-10 16:00:00', '2025-05-11 10:00:00'),
+('Мария Сидорова', 'maria.sidorova@company.com', 'Тормозит компьютер', 2, 3, 1, 2, 3, '2025-05-28 08:00:00', '2025-05-29 14:30:00'),
+('Алексей Смирнов', 'alexey.smirnov@company.com', 'Не работает микрофон', 4, 3, 3, 3, 1, '2025-05-28 11:30:00', '2025-05-30 12:00:00'),
+('Елена Козлова', 'elena.kozlova@company.com', 'Проблема с печатью PDF', 3, 1, 3, 4, 2, '2025-05-29 09:00:00', '2025-05-30 16:20:00'),
+('Дмитрий Иванов', 'dmitry.ivanov@company.com', 'Нужна помощь с настройкой телефонии', 3, 9, 1, 5, 1, '2025-05-29 14:00:00', '2025-05-31 10:15:00'),
+('Анна Васильева', 'anna.vasilyeva@company.com', 'Не работает софт для расчетов', 1, 2, 5, 6, 2, '2025-05-30 10:45:00', '2025-05-31 09:00:00'),
+('Сергей Кузнецов', 'sergey.kuznetsov@company.com', 'Ошибка при отправке почты', 3, 9, 3, 7, 3, '2025-05-30 13:15:00', '2025-06-01 11:30:00'),
+('Ольга Морозова', 'olga.morozova@company.com', 'Пропали закладки в браузере', 5, 2, 3, 8, 4, '2025-05-31 08:30:00', '2025-06-01 15:45:00'),
+('Андрей Соколов', 'andrey.sokolov@company.com', 'Не запускается игра', 4, 10, 8, 9, 5, '2025-05-31 15:00:00', '2025-06-02 10:00:00');
+GO

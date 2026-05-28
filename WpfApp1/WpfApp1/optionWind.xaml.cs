@@ -25,13 +25,25 @@ namespace WpfApp1
 
         private void saveButt_Click(object sender, RoutedEventArgs e)
         {
-            SQL.SetConnString("");
+            SQL.SetConnString(connBox.Text);
             this.Close();
         }
 
         private void cancelButt_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void chekButt_Click(object sender, RoutedEventArgs e)
+        {
+            if (SQL.TestConnection(connBox.Text))
+            {
+                connBox.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                connBox.Background= Brushes.IndianRed;
+            }
         }
     }
 }

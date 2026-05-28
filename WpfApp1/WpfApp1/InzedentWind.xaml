@@ -10,28 +10,29 @@
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Id:" VerticalAlignment="Top"/>
         <TextBlock Name="idBlock" HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="ФИО автора" VerticalAlignment="Top"/>
-        <TextBox Name="AnameBox" HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="270" Height="47"/>
+        <TextBox Name="AnameBox" HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" Height="47"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,104,0,0" TextWrapping="Wrap" Text="email автора" VerticalAlignment="Top"/>
-        <TextBox x:Name="AemailBox" HorizontalAlignment="Left" Margin="10,125,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="270" Height="47"/>
+        <TextBox x:Name="AemailBox" HorizontalAlignment="Left" Margin="10,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" Height="47"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,177,0,0" TextWrapping="Wrap" Text="описание" VerticalAlignment="Top"/>
-        <TextBox x:Name="descriBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="270" Height="120" Margin="10,198,0,0"/>
+        <TextBox x:Name="descriBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" Height="120" Margin="10,198,0,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,323,0,0" TextWrapping="Wrap" Text="приоритет" VerticalAlignment="Top"/>
-        <TextBox x:Name="priorBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" Width="270" Height="21" VerticalAlignment="Top" Margin="10,344,0,0"/>
+        <TextBox x:Name="priorBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Width="270" Height="21" VerticalAlignment="Top" Margin="10,344,0,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,370,0,0" TextWrapping="Wrap" Text="категория" VerticalAlignment="Top"/>
         <ComboBox Name="categCombo" HorizontalAlignment="Left" Margin="10,391,0,0" VerticalAlignment="Top" Width="270" Height="27"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,423,0,0" TextWrapping="Wrap" Text="подразделение" VerticalAlignment="Top"/>
         <ComboBox x:Name="podrazCombo" HorizontalAlignment="Left" Margin="10,444,0,0" VerticalAlignment="Top" Width="270" Height="27"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,476,0,0" TextWrapping="Wrap" Text="ответственный" VerticalAlignment="Top"/>
-        <ComboBox x:Name="emplCombo" HorizontalAlignment="Left" Margin="10,497,0,0" VerticalAlignment="Top" Width="270" Height="27"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,529,0,0" TextWrapping="Wrap" Text="дата выполнения" VerticalAlignment="Top"/>
-        <DatePicker Name="finalDate" HorizontalAlignment="Left" Margin="10,550,0,0" VerticalAlignment="Top" Width="270"/>
+        <DatePicker SelectedDateChanged="finalDate_SelectedDateChanged" Name="finalDate" HorizontalAlignment="Left" Margin="10,550,0,0" VerticalAlignment="Top" Width="270"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,579,0,0" TextWrapping="Wrap" Text="статус" VerticalAlignment="Top"/>
-        <ComboBox x:Name="statusCombo" HorizontalAlignment="Left" Margin="10,600,0,0" VerticalAlignment="Top" Width="270" Height="27"/>
+        <ComboBox x:Name="statusCombo" HorizontalAlignment="Left" Margin="10,600,0,0" VerticalAlignment="Top" Width="270" Height="27" SelectionChanged="statusCombo_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,632,0,0" TextWrapping="Wrap" Text="дата создания" VerticalAlignment="Top"/>
         <TextBlock Name="createDate" HorizontalAlignment="Left" Margin="10,653,0,0" TextWrapping="Wrap" Text="сегодня" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,674,0,0" TextWrapping="Wrap" Text="истекает через" VerticalAlignment="Top"/>
-        <TextBlock Name="freshTime"  HorizontalAlignment="Left" Margin="10,695,0,0" TextWrapping="Wrap" Text="123 дней" VerticalAlignment="Top"/>
+        <TextBlock Name="freshTime"  HorizontalAlignment="Left" Margin="10,695,0,0" TextWrapping="Wrap" Text="? дней" VerticalAlignment="Top"/>
         <Button Click="saveButt_Click" Name="saveButt" Content="изменить" HorizontalAlignment="Left" Margin="176,703,0,0" VerticalAlignment="Top"/>
         <Button Click="exitButt_Click" Name="exitButt" Content="отмена" HorizontalAlignment="Left" Margin="236,703,0,0" VerticalAlignment="Top"/>
+        <Button Name="addButt" Click="addButt_Click" Content="файлы" HorizontalAlignment="Left" Margin="230,637,0,0" VerticalAlignment="Top" Height="19" Width="50"/>
+        <TextBox Name="EmpBox" HorizontalAlignment="Left" Margin="10,497,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270" Height="32" IsReadOnly="True"/>
     </Grid>
 </Window>

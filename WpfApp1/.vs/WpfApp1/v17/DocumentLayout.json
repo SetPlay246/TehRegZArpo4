@@ -1,57 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\menuwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\menuwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\historywind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\historywind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|c:\\users\\setplay\\desktop\\proeczarpo4\\wpfapp1\\wpfapp1\\inzedentwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\inzedentwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\inzedentwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\inzedentwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\optionwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\optionwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\multiwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|c:\\users\\setplay\\documents\\github\\tehregzarpo4\\wpfapp1\\wpfapp1\\multiwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\multiwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\multiwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\multiwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\menuwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\menuwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\tosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\tosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\bibltwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\bibltwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\bibltwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\bibltwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\bibltwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\wpfapp1\\optionwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\bibltwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\bibltwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\dashwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\dashwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\menuwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\menuwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\menuwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\menuwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\optionwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\optionwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\filerwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\filerwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\inzedentwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\inzedentwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\massstatuswind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\massstatuswind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\historywind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\historywind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\filerwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\filerwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\dashwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\dashwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\tosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\tosql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\inzedentwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\inzedentwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\massstatuswind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\massstatuswind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\multiwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\multiwind.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\wpfapp1\\optionwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7106FA17-1D66-4FD2-9EC0-0EC4F756262A}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\optionwind.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,154 +123,246 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "massStatusWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\massStatusWind.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\massStatusWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\massStatusWind.xaml",
+              "RelativeToolTip": "WpfApp1\\massStatusWind.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T14:22:00.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "bibltWind.xaml",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\bibltWind.xaml",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml",
               "RelativeToolTip": "WpfApp1\\bibltWind.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T14:42:25.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "bibltWind.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\bibltWind.xaml.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\bibltWind.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T17:20:45.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "multiWind.xaml",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\multiWind.xaml",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml",
-              "RelativeToolTip": "WpfApp1\\multiWind.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-24T16:49:36.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "multiWind.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\multiWind.xaml.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\multiWind.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T17:29:55.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "toSQL.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\toSQL.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\toSQL.cs",
               "RelativeDocumentMoniker": "WpfApp1\\toSQL.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\toSQL.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\toSQL.cs",
               "RelativeToolTip": "WpfApp1\\toSQL.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA0wCcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACMDAAAAAAAAAAAqwFUDAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T13:03:49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "dashWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\dashWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dashWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\dashWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\dashWind.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T15:30:11.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "filerWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\filerWind.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\filerWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\filerWind.xaml",
+              "RelativeToolTip": "WpfApp1\\filerWind.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T09:41:18.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bibltWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\bibltWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\bibltWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\bibltWind.xaml.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAqwIMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T17:20:45.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "menuWind.xaml",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\menuWind.xaml",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml",
               "RelativeToolTip": "WpfApp1\\menuWind.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T12:19:49.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "menuWind.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\menuWind.xaml.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\menuWind.xaml.cs",
               "RelativeToolTip": "WpfApp1\\menuWind.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwGUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T13:29:01.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T13:29:01.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "InzedentWind.xaml",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\InzedentWind.xaml",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml",
               "RelativeToolTip": "WpfApp1\\InzedentWind.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T12:16:50.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "InzedentWind.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\InzedentWind.xaml.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\InzedentWind.xaml.cs",
               "RelativeToolTip": "WpfApp1\\InzedentWind.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:30:09.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T15:30:09.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "optionWind.xaml",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\optionWind.xaml",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml",
               "RelativeToolTip": "WpfApp1\\optionWind.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T12:41:38.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "optionWind.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\optionWind.xaml.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\optionWind.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "filerWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\filerWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\filerWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\filerWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\filerWind.xaml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAIAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T13:36:13.611Z"
+              "WhenOpened": "2026-05-28T09:41:23.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
+              "Title": "dashWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\dashWind.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\dashWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\dashWind.xaml",
+              "RelativeToolTip": "WpfApp1\\dashWind.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T15:26:30.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "multiWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\multiWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\multiWind.xaml.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAAAFEBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T17:29:55.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "historyWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\historyWind.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\historyWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\historyWind.xaml",
+              "RelativeToolTip": "WpfApp1\\historyWind.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-28T16:03:58.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "historyWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\historyWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\historyWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\historyWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\historyWind.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAD4vycAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:06:07.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "massStatusWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\massStatusWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\massStatusWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\massStatusWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\massStatusWind.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwD8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T14:46:25.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T12:44:26.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-24T12:02:06.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\SetPlay\\Desktop\\proecZArpo4\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAEQAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "multiWind.xaml",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\multiWind.xaml",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\multiWind.xaml",
+              "RelativeToolTip": "WpfApp1\\multiWind.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-24T16:49:36.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "optionWind.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\optionWind.xaml.cs",
+              "ToolTip": "C:\\Users\\SetPlay\\Documents\\GitHub\\TehRegZArpo4\\WpfApp1\\WpfApp1\\optionWind.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\optionWind.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T12:44:26.653Z"
+              "WhenOpened": "2026-05-24T13:36:13.611Z"
             }
           ]
         }

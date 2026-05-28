@@ -5,11 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="bibltWind" Height="450" Width="800">
+        Title="bibltWind" Height="550" Width="1300">
     <Grid>
-        <DataGrid Name="incedentGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Height="254" VerticalAlignment="Top" HorizontalAlignment="Left" Width="738" Margin="10,10,0,0"/>
-        <Button Content="изменить" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top" Height="32" Width="99"/>
-        <Button Content="назад" Name="exitButt" Click="exitButt_Click"  HorizontalAlignment="Left" Margin="657,270,0,0" VerticalAlignment="Top" Height="31" Width="91"/>
+        <DataGrid Name="incedentGrid" SelectionMode="Single" SelectionChanged="incedentGrid_SelectionChanged" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,48,74" IsReadOnly="True"/>
+        <Button Content="изменить" Click="Button_Click" HorizontalAlignment="Left" Margin="549,0,0,38" VerticalAlignment="Bottom" Height="31" Width="99"/>
+        <Button Content="назад" Name="exitButt" Click="exitButt_Click"  HorizontalAlignment="Left" Margin="1161,0,0,38" VerticalAlignment="Bottom" Height="31" Width="91"/>
+        <Button Name="filButt1" Click="filButt1_Click" Content="сброс" HorizontalAlignment="Left" Margin="159,0,0,38" VerticalAlignment="Bottom" Height="31" Width="54"/>
+        <Button Name="filButt2" Click="filButt2_Click" Content="мои" HorizontalAlignment="Left" Margin="218,0,0,38" VerticalAlignment="Bottom" Height="31" Width="51"/>
+        <Button Name="filButt3" Click="filButt3_Click"  Content="просрочены" HorizontalAlignment="Left" Margin="274,0,0,38" VerticalAlignment="Bottom" Height="31" Width="86"/>
+        <Button Name="refreshButt" Click="refreshButt_Click" Content="обновить" Margin="10,0,0,38" VerticalAlignment="Bottom" Height="31" HorizontalAlignment="Left" Width="99"/>
+        <TextBox Name="sIdBox" IsReadOnly="True" HorizontalAlignment="Left" Height="31" Margin="490,0,0,38" TextWrapping="Wrap" Text="?" VerticalAlignment="Bottom" Width="54"/>
+        <TextBlock HorizontalAlignment="Left" Margin="365,0,0,53" TextWrapping="Wrap" Text="id выбранной записи:" Height="16" VerticalAlignment="Bottom"/>
+        <Button Content="Файлы" Name="toFileButt" Click="toFileButt_Click" HorizontalAlignment="Left" Margin="653,0,0,38" VerticalAlignment="Bottom" Height="31" Width="81"/>
+        <Button Content="массовое изменение статуса" Name="massStatButt" Click="massStatButt_Click" HorizontalAlignment="Left" Margin="829,0,0,38" VerticalAlignment="Bottom" Height="31" Width="173"/>
+        <Button Content="статистика статусов" Name="statusStatButt" Click="statusStatButt_Click" HorizontalAlignment="Left" Margin="1007,0,0,38" VerticalAlignment="Bottom" Height="30" Width="140"/>
+        <Button Content="История" x:Name="historyButt" Click="historyButt_Click" HorizontalAlignment="Left" Margin="739,0,0,38" VerticalAlignment="Bottom" Height="31" Width="81"/>
 
     </Grid>
 </Window>
